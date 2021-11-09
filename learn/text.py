@@ -81,6 +81,27 @@ def main():
     # fill and dedent
     dedented = textwrap.dedent(t).strip()
     print(textwrap.fill(dedented, width=50))
+    
+    # decoration by indent
+    wrapped = textwrap.fill(dedented, width=50)
+    print(textwrap.indent(wrapped, '> '))
+    
+    # indent with predicate
+    def should_indent(line):
+        print('Indent {!r}?'.format(line))
+        return len(line.strip()) % 2 ==0
+    
+    print(textwrap.indent(wrapped, 'EVEN ', predicate=should_indent))
+    
+    # handing indent
+    print(textwrap.fill(dedented,
+                        initial_indent='',
+                        subsequent_indent=' '*4,
+                        width=50
+                        ))
+    
+    # shorten
+    print(textwrap.shorten(dedented, 100, placeholder=' [...]'))
 
 
 if __name__ == '__main__':
