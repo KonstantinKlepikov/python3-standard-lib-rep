@@ -3,4 +3,5 @@
 - [ ] text
   - [x] string
   - [x] textwrap
-  - [ ] re
+  - [x] re
+  - [x] difflib
