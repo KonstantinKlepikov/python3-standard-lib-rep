@@ -6,5 +6,18 @@
   - [x] re
   - [x] difflib
 - [ ] data sructures
-  - [ ] enum
+  - [x] enum
+  - [x] collections
+    - [x] chainmap
+    - [x] ordered dict
+    - [x] named tuple
+    - [x] default dict
+    - [x] deque
+  - [x] array
+  - [x] heapq
+  - [x] queue
+  - [x] struct
+  - [x] weakref
+  - [x] copy/deepcopy
+  - [x] pprint
 - [ ] algotythms
