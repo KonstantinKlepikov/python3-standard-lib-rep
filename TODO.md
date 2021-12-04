@@ -20,4 +20,10 @@
   - [x] weakref
   - [x] copy/deepcopy
   - [x] pprint
-- [ ] algotythms
+- [x] algotythms
+  - [x] functools
+  - [x] itertools
+- [x] date and time
+  - [x] time
+  - [x] datetime
+  - [x] calender
