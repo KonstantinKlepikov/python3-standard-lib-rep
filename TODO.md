@@ -5,7 +5,7 @@
   - [x] textwrap
   - [x] re
   - [x] difflib
-- [ ] data sructures
+- [x] data sructures
   - [x] enum
   - [x] collections
     - [x] chainmap
@@ -27,3 +27,5 @@
   - [x] time
   - [x] datetime
   - [x] calender
+- [ ] mathematics
+  - [ ] decimal
