@@ -27,5 +27,18 @@
   - [x] time
   - [x] datetime
   - [x] calender
-- [ ] mathematics
-  - [ ] decimal
+- [x] mathematics
+  - [x] decimal
+  - [x] fraction
+  - [x] math
+- [ ] file system
+  - [x] os.path
+  - [x] pathlib
+  - [x] glob
+  - [x] fnmatch
+  - [x] linecahce
+  - [x] tempfile
+  - [x] shutil
+  - [x] filelecmp
+  - [x] mmap
+  - [ ] codecs
